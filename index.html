@@ -1,34 +1,43 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link type="text/css" rel="stylesheet" href="./styles/mystyle.css" media="screen">
+    <link rel="shortcut icon" href="images/favicon.ico">
     <meta charset="utf-8">
     <title>Web Portfolio: Niño Anthony D. Visaya</title>
+	
+   <style>
+    
+
+   </style>
   </head>
+
   <body>
     <!-- The content of your web page will go here -->
-    <div>
+    <div id="skipnav">
         <a href="#main">Skip to main content</a>
   </div>
     <h1>Web Portfolio</h1>
-        <div>
+        <div class="info" id="info1">
             <ul>
                 <li>Niño Anthony Visaya </li>
                 <li><a href="mailto:ninoanthony.visaya@tup.edu.ph">ninoanthony.visaya@tup.edu.ph</a></li>
         </ul>
     </div>
-        <div>
+        <div class="info" id="info2">
             <ul>
-            <li>Course: Bachelor of Technical-Vocational Teacher Education</li>
+            <li><b>Course:</b> Bachelor of Technical-Vocational Teacher Education</li>
             <li>Major in Computer Programming</li>
-            <li>Professor: Prof. Allan Villariza</li>
-            <li>Section: BTVTED-COMPRO 2A</li>
-            <li>School:<a href="http://www.tup.edu.ph/"> Technological University of the Philippines Manila</a></li>
-            <li>Year: 2022-2023</li>
+            <li><b>Professor:</b> Prof. Allan Villariza</li>
+            <li><b>Section:</b> BTVTED-COMPRO 2A</li>
+            <li><b>School:</b><a href="http://www.tup.edu.ph/"> Technological University of the Philippines Manila</a></li>
+            <li><b>Year:</b> 2022-2023</li>
         </ul>
     </div>
+   
     <nav>
         <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="accessibility.html">Accessibility</a></li>
             <li><a href="usability.html">Usability</a></li>
             <li><a href="graphics.html">Graphics</a></li>
@@ -37,25 +46,29 @@
             <li><a href="video.html">Video</a></li>
         </ul>
     </nav>
-    <main id="main">
-        <p>  
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br>
-            Autem consequatur quis voluptate perspiciatis. <br>
-            Laboriosam vel facere repellat iste sequi at autem deleniti,<br>
-            esse expedita ipsam vero temporibus cupiditate, nostrum non.<br>
+   
+    <div id="main">
+        <p id="overview">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Autem consequatur quis voluptate perspiciatis. 
+            Laboriosam vel facere repellat iste sequi at autem deleniti,
+            esse expedita ipsam vero temporibus cupiditate, nostrum non.
         </p>
         <h2>Unit 2</h2>
-            <p>This section will be completed soon.</p>
+            <p class="temp">This section will be completed soon.</p>
         <h2>Unit 3</h2>
+            <p class="temp">This section will be completed soon.</p>
+        <h2 class="temp">Unit 4</h2>
             <p>This section will be completed soon.</p>
-        <h2>Unit 4</h2>
+            <div style="text-align:center; background: none; border:none; box-shadow: none;">
+				<a href="graphics.html"><img src="images/camera.png" alt="Got to my graphics projects page"></a>
+			</div>
+        <h2 class="temp">Unit 5</h2>
             <p>This section will be completed soon.</p>
-        <h2>Unit 5</h2>
+        <h2 class="temp">Unit 6</h2>
             <p>This section will be completed soon.</p>
-        <h2>Unit 6</h2>
+        <h2 class="temp">Unit 7</h2>
             <p>This section will be completed soon.</p>
-        <h2>Unit 7</h2>
-            <p>This section will be completed soon.</p>
-    </main>
+    </div>
   </body>
 </html>

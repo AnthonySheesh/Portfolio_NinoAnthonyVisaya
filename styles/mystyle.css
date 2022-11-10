@@ -1,0 +1,192 @@
+
+@font-face {
+    font-family: 'Title';
+    src: url('./PlayfairDisplay-Bold.ttf');
+}
+
+@font-face{
+    font-family: 'Body';
+    src: url('./SourceSansPro-Light.ttf');
+}
+
+body{
+    font-size: 1em;
+    font-weight: normal;
+    font-family: 'Body';
+    text-align: left;
+    background-color:#1D2731 ;
+	width: 1000px;
+	min-width: 720px;
+	margin: 0 auto;
+    color:white ;
+
+}
+h1{
+    font-family: 'Title';
+    font-size: 3em;
+    font-weight: bold; 
+    /* White */
+    color:White;
+    text-align: center;
+    text-shadow:  5px 5px rgb(217, 78, 78);
+   
+}
+h2, h3{
+    font-size: 1.4em;
+    color:white ;
+    padding: 0 0 0 0;
+    font-family: 'Title';
+    margin-left: 1em;
+}
+h3 {
+	font-size: 1.1em;
+	margin-left: 1.25em;
+}
+div{
+   
+	border: 1px solid wheat;
+	padding: 1em;
+	margin: 1em;
+    background-color:#0B3C5D ;
+    box-shadow: 4px 4px 4px #328CC1;
+}
+p{
+    font-family: 'Body';
+    font-style: italic;
+    background-color: ;
+    color:white ;
+    margin: 1em;
+}
+
+nav ul{
+    font-family: 'Body';
+    font-weight: bolder;
+   
+    color:white ;
+    padding: 1 em;
+    margin: 1em;
+    clear: left;
+}
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    background-color:#0B3C5D ;
+    color:white ;
+
+}
+a:hover, a:focus{
+    text-decoration: none;
+    color: rgb(159, 215, 237);
+    text-shadow:  1px 1px rgb(214, 134, 134);
+    font-weight: bold;
+}
+table {
+	margin: 0 auto; /* this is a trick for centering certain elements */
+	background-color: wheat;
+}
+th {
+	background-color: #0B3C5D;
+	color: rgb(255, 255, 255);
+	padding: 0.75em;
+	margin: 1px;
+    font-style: bolder;
+}
+td{
+background-color: #d9B310;
+padding: 0.75em;
+margin: 1px;
+
+}
+caption {
+    font-family: 'Title';
+    font-size: 1.8em;
+    color:White;
+    text-shadow:  5px 5px rgb(217, 78, 78);
+	font-weight: bold;
+	font-size: 1.2em;
+	margin: 0.75em;
+}
+div#skipnav {
+    position: relative;
+      right: 12.5%;
+      width: 10em;
+      text-align: center;
+  }
+  div.info {
+    float: left;
+      width: 40%;
+      font-size: 1.2em; 
+  }
+  nav {
+      clear: left;
+  }
+  main, main p {
+      
+      background-color:#328CC1;
+      font-style: normal;
+      margin-bottom: 15em;
+  }
+  #main{
+    margin:0.55em;
+    overflow: auto;
+  }
+  main p {
+      margin-left: 2em;
+  }
+  main p#overview {
+
+      margin-left: 1em;
+      font-size: 1.1em;
+  }
+  main p.temp {
+      font-style: italic;
+  }
+  p#overview:first-letter {
+      font-family: "Times New Roman", Times, serif;
+      font-size: 2em;
+      font-weight: bold;
+  }
+  
+
+  nav {
+      padding-bottom: 0.025em;
+  }
+  nav ul {
+      list-style-type: none;
+      padding-bottom: inherit;
+      
+  }
+  nav ul li {
+      float: left;
+      margin-right: 0.5em;
+  }
+  nav ul li a {
+      padding: 0.25em 1em;
+      text-decoration: none; 
+      background-color: #d9B310;
+      color:black; 
+      border: 1px solid wheat;
+      border-top-left-radius: 1em 1em;
+      border-top-right-radius: 1em 1em; 
+      
+  }
+  nav ul li a:hover, nav ul li a:focus {
+      color: #d9B310;
+      background-color: white;
+      font-weight: bolder;
+      text-shadow:  1px 1px black;
+  }
+  main {
+      clear: left;
+      padding: 1em;
+  }
+  
+  graphics.html .p{
+        font-size: 1.2em;
+        font-style: normal;
+
+  }
